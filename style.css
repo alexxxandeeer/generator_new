@@ -34,12 +34,6 @@ font-size: 4rem;
     cursor: pointer;
     color: aliceblue;
 }
-.subtract{
+.generate{
     background-color: rgb(178, 155, 11);
-}
-.reset {
-    background-color: red;
-}
-.add{
-    background-color: rgb(0, 255, 72);
 }
