@@ -1,4 +1,4 @@
-const number = document.querySelector(".number");
+/* const number = document.querySelector(".number");
 const btn = document.querySelector(".generate");
 
 let generateNumber = () => {
@@ -9,5 +9,12 @@ let generateNumber = () => {
 btn.addEventListener("click", generateNumber);
 generateNumber();
 
+ */
+
+const div = document.createElement('div')
+div.classList.add('wrapper')
+const body = document.body
+body.appendChild(div)
 
 
+console.log(body)
